@@ -48,7 +48,7 @@ installQuasarPlugin();
 
 describe('BookComponent', () => {
   it('mounts without errors', () => {
-    const wrapper = mount(MyButton);
+    const wrapper = mount(BookComponent);
 
     expect(wrapper).toBeTruthy();
   });
